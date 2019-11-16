@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/11/9 1:39:06。
+     1>项目“D:\chengxu\每日一题1107\每日一题1107\每日一题1107.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "p t.cpp"
+         p t.cpp
+     1>d:\chengxu\每日一题1107\每日一题1107\p t.cpp(10): error C3867: “std::basic_string<char,std::char_traits<char>,std::allocator<char>>::begin”:  函数调用缺少参数列表；请使用“&std::basic_string<char,std::char_traits<char>,std::allocator<char>>::begin”创建指向成员的指针
+     1>d:\chengxu\每日一题1107\每日一题1107\p t.cpp(10): error C3867: “std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end”:  函数调用缺少参数列表；请使用“&std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end”创建指向成员的指针
+     1>d:\chengxu\每日一题1107\每日一题1107\p t.cpp(10): error C2568: “<”: 无法解析函数重载
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(1613): 可能是“std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>> std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end(void) throw() const”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(1608): 或       “std::_String_iterator<std::_String_val<std::_Simple_types<char>>> std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end(void) throw()”
+     1>d:\chengxu\每日一题1107\每日一题1107\p t.cpp(10): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“D:\chengxu\每日一题1107\每日一题1107\每日一题1107.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.51
